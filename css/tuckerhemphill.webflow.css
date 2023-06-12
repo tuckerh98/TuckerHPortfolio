@@ -2610,7 +2610,7 @@ figcaption {
   }
 
   .heading-jumbo {
-    margin: 37px 0 0;
+    margin: 0;
     font-size: 16px;
     line-height: 30px;
   }
@@ -2683,8 +2683,15 @@ figcaption {
     padding-bottom: 17px;
   }
 
+  .webflow-logo-tiny {
+    margin-left: 0;
+  }
+
   .footer-links {
-    padding-right: 119px;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-left: 15%;
+    padding-right: 0;
   }
 
   .about-head-text-wrap, .skills-grid, .personal-features-grid, .social-media-heading {
@@ -2739,7 +2746,7 @@ figcaption {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: ".";
     grid-auto-columns: .25fr;
-    margin-bottom: 25px;
+    margin-bottom: 0;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -2751,7 +2758,7 @@ figcaption {
 
   .heading-2 {
     text-align: left;
-    margin-top: -43px;
+    margin-top: 0;
     margin-left: 28px;
     margin-right: 41px;
     font-size: 18px;
@@ -2764,6 +2771,10 @@ figcaption {
   .link-2 {
     text-align: left;
     margin-left: 30px;
+  }
+
+  .tiles {
+    margin-top: 0;
   }
 
   .text-block-6 {
@@ -2811,7 +2822,7 @@ figcaption {
   }
 
   .div-block-2 {
-    margin-top: 250px;
+    margin-top: 0;
     margin-bottom: 27px;
   }
 
@@ -2999,6 +3010,14 @@ figcaption {
   .text-block-26 {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .column-2 {
+    padding-left: 0%;
+  }
+
+  .section-11 {
+    margin-top: -40%;
   }
 }
 
